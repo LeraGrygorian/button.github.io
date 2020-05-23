@@ -1,0 +1,34 @@
+<HTML>
+<TITLE> Форми </TITLE>
+<BODY>
+<H4> Форма для складання іспитів</H4>
+<FORM METHOD="post" ACTION="mailto:kozyralena6@gmail.com"
+ENCTYPE="text/plain">
+Прізвище:<INPUT TYPE="text" NAME="family" size= 25
+TITLE="Введи тут своє прізвище українською мовою"><BR><BR>
+Обери район, де ти проживаєш:<BR>
+<SELECT>
+<OPTION NAME="kyiv"> Київський
+<OPTION NAME="lviv"> Львівський
+<OPTION NAME="frank">Франківський
+</SELECT>
+<BR><BR>
+Зазнач мову, якою ти складатимеш іспити:<BR>
+<INPUT TYPE="radio" NAME="lang"
+VALUE="українська">Українська<BR>
+<INPUT TYPE="radio" NAME="lang"
+VALUE="російська">Російська<BR>
+<INPUT TYPE="radio" NAME="lang"
+VALUE="англійська">Англійська<BR><BR>
+Вибери іспити:<BR>
+<INPUT TYPE="checkbox" NAME="subj"
+VALUE="українська">Українська<BR>
+<INPUT TYPE="checkbox" NAME="subj"
+VALUE="фізика">Фізика<BR>
+<INPUT TYPE="checkbox" NAME="subj"
+VALUE="математика">Математика<BR>
+<INPUT TYPE="submit" VALUE="Відіслати">
+<INPUT TYPE="reset" VALUE="Оновити форму">
+</FORM>
+</BODY>
+</HTML>
